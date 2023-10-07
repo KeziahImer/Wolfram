@@ -11,7 +11,7 @@ make
 ./wolfram --rule <RULE_NUMBER> --start <START_GENERATION> --lines <NUM_LINES> --window <WINDOW_SIZE> --move <TRANSLATION>
 ```
 
-### Available Arguments
+## Available Arguments
 
 - `--rule`: Specifies the ruleset to use (mandatory, no default value).
 - `--start`: Specifies the generation number at which to start the display. Default value is 0.
@@ -19,7 +19,7 @@ make
 - `--window`: Specifies the number of cells to display on each line (line width). If even, the central cell is displayed in the next cell on the right. Default value is 80.
 - `--move`: Specifies a translation to apply on the window. If negative, the window is translated to the left. If positive, it’s translated to the right.
 
-#### Example Usage
+## Example Usage
 
 To run Wolfram with different configurations, you can use the following command as an example:
 
